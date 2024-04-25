@@ -38,8 +38,6 @@ let nombreProducto = prompt("ingrese el nombre del producto")
 let precioUnitario = 10
 let cantidadDeseada = prompt("ingrese la cantidad de productos")
 let costoFinal = cantidadDeseada * precioUnitario
-console.log(costoFinal);
-
 if( cantidadDeseada >= 5){
     console.log(costoFinal * (10/100));
 }else{
