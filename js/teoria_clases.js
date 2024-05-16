@@ -101,6 +101,7 @@
 // console.log("la suma de todos los 10 primero numero es : " + suma);
 // parseFloat()
 // parseInt()
+
 // for (let num = 1 ; num <= 5 ; num++){
 //     console.log();
 // }
@@ -144,3 +145,137 @@
 // console.log(nuevasFrutas);
 // const eliminacion = frutas.splice(1,3);
 // console.log(eliminacion);
+
+// let numero = parseInt(prompt("ingrese un numero"))
+// console.log(typeof numero);
+
+// let pi = 3.141592
+// let modificado = pi.toFixed(2)
+// // console.log(modificado);
+// let numero = parseInt(prompt("ingrese un numero"))
+// if (isNaN(numero)) {
+//     console.log(" no es un numero");
+// }
+// else{
+//     console.log("es un numero");
+// }
+
+// let date = 2007
+// console.log( typeof date);
+
+// let dateModificacion = date.toString()
+
+// console.log( typeof dateModificacion);
+
+// let book = {
+//     tittle: 'book',
+//     anio: '1749',
+//     autor: 'charles'
+// }
+// let person = {
+//     nombre: 'personita',
+//     apellido: 'curiosa',
+//     age: '21'
+// }
+
+// let books = [
+//     {
+//         tittle: 'book',
+//         anio: 1942,
+//         autor: 'charles',
+//     },
+//     {
+//         tittle: 'book 2',
+//         anio: 1972,
+//         autor: 'fabian',
+//     },
+//     {
+//         tittle: 'book 3',
+//         anio: 2012,
+//         autor: 'esteban'
+//     }
+// ]
+
+// let book = {
+//     tittle: 'book',
+//     anio: '1749',
+//     autor: 'charles'
+// }
+// console.log(book);
+
+// book.tittle = 'book 2'
+
+// console.log(book);
+
+// delete book.autor 
+
+// console.log(book);
+
+
+// let productos = ["refrigerador", "mesa", "sofa"];
+
+// for (let index = 0; index < productos.length; index++) {
+//     const element = productos[index];
+//     console.log(element);
+// }
+
+// for (let index = 0; index < productos.length; index++) {
+//     const element = productos[index];
+//     console.log(element);
+// }
+
+
+
+// let products = [
+//     {name:"heladera", precio:2323,stock: 10},
+//     {name:"teclado", precio:2323,stock: 8},
+//     {name:"laptop", precio:2323, stock: 5}
+// ]
+
+// //mostrandole al usuario los producto
+// for (let index = 0; index < products.length; index++) {
+//     console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
+
+// }
+// console.log("----------------------------------------------");
+// //simulando la compra
+// for (let index = 0; index < products.length; index++) {
+//     console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
+// }
+
+
+// let products = [
+//      {name:"heladera", precio:2323,stock: 10},
+//      {name:"teclado", precio:2323,stock: 8},
+//      {name:"laptop", precio:2323, stock: 5}
+// ]
+
+// for (let index = 0; index < products.length; index++) {
+//     console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
+// }
+// products.pop();
+
+// for (let index = 0; index < products.length; index++) {
+//     console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
+// }
+
+// let products = [
+//     {name:"heladera", precio:2323,stock: 10},
+//     {name:"teclado", precio:2323,stock: 8},
+//     {name:"laptop", precio:2323, stock: 5}
+// ]
+
+// for (let index = 0; index < products.length; index++) {
+//     const element = products[index];
+//     let div = document.createElement("div");
+//     div.classList.add('border')
+//     div.innerHTML = `
+//         <div class="ancho">
+//             <p>NOMBRE : ${element.name}</p>
+//             <p>PRECIO: ${element.precio}</p>
+//             <p>STOCK: ${element.stock}</p>
+//             <a href="">Comprar</a>
+//         </div>
+//     `
+//     container_padre.appendChild(div)
+// }
