@@ -1,14 +1,12 @@
-let products = [
-     {name:"heladera", precio:2323,stock: 10},
-     {name:"teclado", precio:2323,stock: 8},
-     {name:"laptop", precio:2323, stock: 5}
-]
+let producto = {
+    name: 'camiseta', precio: 1043, stock: 3
+};
+console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock}`);
 
-for (let index = 0; index < products.length; index++) {
-    console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
-}
-products.pop();
+producto.name = 'Zapatillas'
 
-for (let index = 0; index < products.length; index++) {
-    console.log(`${products[index].name} - precio : $${products[index].precio} - stock : ${products[index].stock}`);
-}
+console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock}`);
+
+producto["Categoria"] = "Calzado"
+
+console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock} Categoria: ${producto.Categoria}`);

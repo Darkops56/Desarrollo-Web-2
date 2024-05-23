@@ -143,6 +143,7 @@
 
 // const nuevasFrutas = frutas.slice(1,3)
 // console.log(nuevasFrutas);
+
 // const eliminacion = frutas.splice(1,3);
 // console.log(eliminacion);
 
@@ -279,3 +280,4 @@
 //     `
 //     container_padre.appendChild(div)
 // }
+// 
