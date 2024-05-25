@@ -280,4 +280,29 @@
 //     `
 //     container_padre.appendChild(div)
 // }
-// 
+
+// let producto = {
+//     name: 'camiseta', precio: 1043, stock: 3
+// };
+// console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock}`);
+
+// producto.name = 'Zapatillas'
+
+// console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock}`);
+
+// producto["Categoria"] = "Calzado"
+
+// console.log(`Nombre: ${producto.name} - Precio: ${producto.precio} - Stock: ${producto.stock} Categoria: ${producto.Categoria}`);
+
+
+
+// const encabezado = document.getElementsByClassName('encabezado')
+// const titulo = document.getElementById('encabezado')
+// const cabeza = document.getElementsByClassName('encabezado')
+
+// console.log(encabezado);
+// const texto = document.querySelectorAll('.texto')
+// for (let index = 0; index < texto.length; index++) {
+//     const element = texto[index];
+//     console.log(element);
+// }
