@@ -1,13 +1,8 @@
-.border{
-    box-shadow: 2px 2px 3px #333;
-    margin: 15px;
-    padding: 15px;
+.container_item{
+    box-shadow: 2px 4px 1px rgb(104, 103, 103);
 }
-.ancho{
-    width: 50%;
-}
-
-#container_padre{
+#container{
     display: flex;
     flex-wrap: wrap;
+    gap: 4rem;
 }
